@@ -1,0 +1,62 @@
+
+*{box-sizing: border-box;}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    
+    
+}
+
+.iconbar{ 
+    background-color:rgb(24, 21, 21);
+    width: 100%;
+    
+   
+
+}
+
+.icon-stlye{
+    float: left;
+    text-align: center;
+    padding: 10px 15px;
+    width: 20%;
+    font-size: 40px;
+    transition: all 0.8s ease;    
+    background-color:rgb(24, 21, 21);
+    cursor: pointer;
+
+}
+
+@media(max-width: 300px){
+    .icon-stlye{
+
+        float: left;
+        text-align: center;
+        padding: 5px 10px;
+        width: 20%;
+        font-size: 20px;
+       
+    
+    }
+
+}
+
+.icon-stlyed:hover{
+    background-color: rgb(44, 72, 44);
+
+}
+
+
+.icon-activated{
+    background-color: rgb(0, 172, 0);
+
+}
+    
+    
+
+
+
+
+
